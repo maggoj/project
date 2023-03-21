@@ -1,0 +1,306 @@
+<html>
+<head>
+<title>contact_us</title>
+
+</head>
+<body>
+
+<header>
+
+<nav>
+<h1 class="heading">forUS!</h1>
+<ul class="topnav">
+<li><a href="home.html">Home</a></li>
+<li><a href="clothing.html">Clothing</a></li>
+<li><a href="aboutus.html">About Us</a></li>
+<li><a href="contactus.html">Contact</a></li>
+<li><a href="help.html">Help</a></li>
+</ul>
+
+</header>
+<main>
+
+<div class="container">
+  <div style="text-align:center">
+    <h2 class="subheading">Contact Us</h2>
+    
+  </div>
+  <div class="row">
+    <div class="column">
+      
+      
+    </div>
+    <div class="column">
+    <form action="/action_page.php">
+       <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" >
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname">
+        <label for="email">Email</label>
+    <input type="text" name="email">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="uk">United Kingdom</option>
+          <option value="india">India</option>
+          <option value="nepal">Nepal</option>
+        </select>
+        
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-instagram"></a>
+<p class="w3-medium">
+  You can also contact us through our emails: jiyamaggo8@gmail.com </p>
+<p>OR </p>
+<p>Call Us directly on: +44 7788765487                   
+  </p>
+<p> You can directly visit our Store:</p>
+<p> Priory St, Coventry CV1 5FB</p>
+<div class="footer-nav">
+<a href=“privacy.html”>Privacy Policy </a>
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+<a href=“terms.html”>Terms & Conditions</a>
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+<a href=“cookie.html”>Cookie Policy </a>
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
+<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2433.9592168107733!2d-1.504838284976431!3d52.40741535232033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48774bb75effb59d%3A0x2ecadf971e952708!2sCoventry%20University!5e0!3m2!1sen!2suk!4v1679003583248!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+
+ </footer>
+</div>
+</section>
+
+
+<style>
+body {
+    margin: 0;
+    margin-top: 0px;
+  backgroung-image: url(C:\Users\jiyam\OneDrive\Desktop\contact.jpg);
+}
+
+header {
+    display: flex;
+    position: fixed;
+   
+    top: 0;
+    left: 20;
+    right: 20;
+    height: 0px;
+    line-height: 50px;
+    background-color: #eee;
+}
+
+header * {
+    display: inline;
+    height: 150px;
+text-align: center;
+}
+
+header ul {
+    padding: 0;
+text-align: right;
+}
+
+header li {
+    margin-right: 20px;
+    display: inline;
+    text-align: right;
+}
+
+.heading{
+font-size: 60px;
+}
+.topnav{
+position: absolute;
+  right: 0px;
+  font-size: 20px;
+  
+  padding: 0px;
+}
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.subheading{
+font-size: 40px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+   display: inline;
+   color: black;
+   text-align: left;
+ margin-right: 20px;
+    display: inline;
+    
+    
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #ece9da;
+  color: black;
+  padding: 12px 20px;
+ cursor: pointer;
+  
+}
+
+
+
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+
+.column {
+ 
+  width: 90%;
+  margin-top: 6px;
+  padding: 0px;
+}
+
+
+.row:after {
+  content: "";
+  display: grid;
+  
+}
+
+
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  
+}
+
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.subheading{
+text-align: center;
+padding: 0px;
+}
+
+
+.footer {
+    position: fixed;
+    z-index: 99999;
+    bottom: 0;
+    display: none;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    color: #fff;
+    text-align:center;
+    cursor: pointer;
+}
+.show, .footer-nav:hover {
+    display: block;
+}
+
+</style>
+
+<script>
+$(window).scroll(function(event) {
+	function footer()
+    {
+        var scroll = $(window).scrollTop(); 
+        if(scroll > 50)
+        { 
+            $(".footer-nav").fadeIn("slow").addClass("show");
+        }
+        else
+        {
+            $(".footer-nav").fadeOut("slow").removeClass("show");
+        }
+        
+        clearTimeout($.data(this, 'scrollTimer'));
+        $.data(this, 'scrollTimer', setTimeout(function() {
+            if ($('.footer-nav').is(':hover')) {
+	        	footer();
+    		}
+            else
+            {
+            	$(".footer-nav").fadeOut("slow");
+            }
+		}, 2000));
+    }
+    footer();
+});
+
+</script>
+
+
+</main>
+</body>
+</html>
+
+
+
